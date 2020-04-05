@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.4.11" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43926,8107573032" ReportOptions.Description.Text="" ReportOptions.LastChange="43926,8351410301" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDataset1" DataSetName="frxDBDataset1"/>
+  </Datasets>
+  <Variables>
+    <item Name=" New Category1"/>
+    <item Name="New Variable1" Value="COUNT(,&#60;frxDBDataset1.&#34;nbr_impression&#34;&#62;)[SUM(&#60;frxDBDataset1.&#34;nbr_impression&#34;&#62;)]"/>
+  </Variables>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="45,35436" Left="0" Top="306,14193" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxShapeView Name="Shape1" AllowVectorExport="True" Left="15,11812" Top="0" Width="687,87446" Height="45,35436" Frame.Typ="0"/>
+      <TfrxLineView Name="Line1" AllowVectorExport="True" Left="495,11843" Top="0" Width="0" Height="45,35436" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line2" AllowVectorExport="True" Left="381,73253" Top="0" Width="0" Height="45,35436" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line3" AllowVectorExport="True" Left="228,65368" Top="0" Width="0" Height="45,35436" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="frxDBDataset1nom_fichier" IndexTag="1" AllowVectorExport="True" Left="502,67749" Top="3,77953" Width="200,31509" Height="37,7953" DataField="nom_fichier" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Cairo Black" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset1.&#34;nom_fichier&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1nbr_impression" IndexTag="1" AllowVectorExport="True" Left="400,63018" Top="7,55906" Width="79,37013" Height="26,45671" DataField="nbr_impression" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Cairo Black" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset1.&#34;nbr_impression&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1nom_utilisateur" IndexTag="1" AllowVectorExport="True" Left="238,11039" Top="3,77953" Width="136,06308" Height="34,01577" DataField="nom_utilisateur" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Cairo Black" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset1.&#34;nom_utilisateur&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1date_impression" IndexTag="1" AllowVectorExport="True" Left="18,89765" Top="7,55906" Width="204,09462" Height="26,45671" DataField="date_impression" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Cairo Black" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset1.&#34;date_impression&#34;]"/>
+    </TfrxMasterData>
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="154,96073" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="438,42548" Top="90,70872" Width="268,34663" Height="37,7953" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="عدد نقرات زر طباعة قائمة تلاميذ"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="83,14966" Top="90,70872" Width="268,34663" Height="37,7953" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="عدد نقرات زر طباعة قائمة الزبائن"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="11,33859" Top="90,70872" Width="49,13389" Height="37,7953" Font.Charset="1" Font.Color="255" Font.Height="-16" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="0"/>
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="219,21274" Top="15,11812" Width="291,02381" Height="45,35436" Font.Charset="1" Font.Color="0" Font.Height="-24" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="تفاصيل الطباعة "/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="374,17347" Top="90,70872" Width="49,13389" Height="37,7953" Font.Charset="1" Font.Color="255" Font.Height="-16" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="0"/>
+    </TfrxReportTitle>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="49,13389" Left="0" Top="196,53556" Width="718,1107">
+      <TfrxMemoView Name="Memo10" AllowVectorExport="True" Left="555,59091" Top="7,55906" Width="98,26778" Height="37,7953" Font.Charset="1" Font.Color="255" Font.Height="-16" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="اسم الوثيقة"/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" Left="389,29159" Top="7,55906" Width="98,26778" Height="37,7953" Font.Charset="1" Font.Color="255" Font.Height="-16" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="عدد النقرات"/>
+      <TfrxMemoView Name="Memo12" AllowVectorExport="True" Left="241,88992" Top="7,55906" Width="128,50402" Height="37,7953" Font.Charset="1" Font.Color="255" Font.Height="-16" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="اسم المستخدم"/>
+      <TfrxMemoView Name="Memo13" AllowVectorExport="True" Left="22,67718" Top="7,55906" Width="185,19697" Height="37,7953" Font.Charset="1" Font.Color="255" Font.Height="-16" Font.Name="Cairo Black" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="تاريخ وساعة الطباعة"/>
+      <TfrxShapeView Name="Shape2" AllowVectorExport="True" Left="15,11812" Top="3,77953" Width="687,87446" Height="45,35436" Frame.Typ="0"/>
+      <TfrxLineView Name="Line4" AllowVectorExport="True" Left="495,11843" Top="3,77953" Width="0" Height="45,35436" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line5" AllowVectorExport="True" Left="381,73253" Top="3,77953" Width="0" Height="45,35436" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line6" AllowVectorExport="True" Left="228,65368" Top="3,77953" Width="0" Height="45,35436" Color="0" Frame.Typ="1"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>
